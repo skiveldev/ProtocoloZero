@@ -16525,7 +16525,12 @@ MonoBehaviour:
   turnSpeed: 540
   gravity: -18
   groundedDownwardSpeed: -2
-  movementReference: {fileID: 0}
+  movementReference: {fileID: 963194228}
+--- !u!4 &791183689 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2602126525003700056, guid: bc0db8f04b753bd49b7f06ae6ab40513, type: 3}
+  m_PrefabInstance: {fileID: 791183685}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &792183974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20926,6 +20931,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -21021,6 +21027,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
   playerBody: {fileID: 1656206106}
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3be2568061b004fae30607f7c449c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 791183689}
+  height: 1.5
+  distance: 3.5
+  sensitivity: 0.15
+  initialPitch: 12
+  minPitch: -35
+  maxPitch: 70
+  followSharpness: 12
+  recoverySharpness: 5
+  collisionRadius: 0.35
+  wallPadding: 0.05
 --- !u!4 &966134742 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5149015503972216563, guid: 20d9c287fff82dd49bc0a9b23650f1e1, type: 3}
