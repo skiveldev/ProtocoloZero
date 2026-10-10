@@ -26,6 +26,7 @@
 
 # Local tooling and operating-system files
 /.codegraph/
+/odd/
 .DS_Store
 Thumbs.db
 Desktop.ini
