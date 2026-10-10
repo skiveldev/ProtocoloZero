@@ -1,0 +1,6 @@
+{
+    "name": "ProtocoloZero.Player",
+    "rootNamespace": "ProtocoloZero.Player",
+    "references": ["Unity.InputSystem"],
+    "autoReferenced": true
+}

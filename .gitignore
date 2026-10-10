@@ -1,0 +1,33 @@
+# Unity-generated local data
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/MemoryCaptures/
+/Recordings/
+
+# IDE-generated files
+/.vs/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Local tooling and operating-system files
+/.codegraph/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep Assets and their .meta files versioned.

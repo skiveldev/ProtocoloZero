@@ -1,0 +1,11 @@
+{
+    "name": "ProtocoloZero.Player.Tests",
+    "rootNamespace": "ProtocoloZero.Player.Tests",
+    "references": ["ProtocoloZero.Player", "Unity.InputSystem", "Unity.InputSystem.TestFramework"],
+    "includePlatforms": ["Editor"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll"],
+    "autoReferenced": false,
+    "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}
