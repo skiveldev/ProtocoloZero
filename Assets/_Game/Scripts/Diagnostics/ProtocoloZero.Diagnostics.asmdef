@@ -1,0 +1,5 @@
+{
+    "name": "ProtocoloZero.Diagnostics",
+    "references": ["ProtocoloZero.Gameplay", "ProtocoloZero.AI", "Unity.InputSystem", "Unity.ugui"],
+    "autoReferenced": true
+}

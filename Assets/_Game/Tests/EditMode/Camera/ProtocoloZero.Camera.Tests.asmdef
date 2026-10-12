@@ -1,0 +1,11 @@
+{
+    "name": "ProtocoloZero.Camera.Tests",
+    "rootNamespace": "ProtocoloZero.Camera.Tests",
+    "references": ["ProtocoloZero.Camera", "Unity.InputSystem", "Unity.InputSystem.TestFramework"],
+    "includePlatforms": ["Editor"],
+    "optionalUnityReferences": ["TestAssemblies"],
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll"],
+    "autoReferenced": false,
+    "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

@@ -1,0 +1,5 @@
+{
+    "name": "ProtocoloZero.Build.Editor",
+    "includePlatforms": ["Editor"],
+    "autoReferenced": false
+}

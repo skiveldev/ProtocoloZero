@@ -1,0 +1,6 @@
+{
+    "name": "ProtocoloZero.AI",
+    "rootNamespace": "ProtocoloZero.AI",
+    "references": ["ProtocoloZero.Gameplay", "Unity.AI.Navigation"],
+    "autoReferenced": true
+}

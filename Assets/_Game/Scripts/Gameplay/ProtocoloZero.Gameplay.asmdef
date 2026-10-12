@@ -1,0 +1,6 @@
+{
+    "name": "ProtocoloZero.Gameplay",
+    "rootNamespace": "ProtocoloZero.Gameplay",
+    "references": ["Unity.InputSystem", "Unity.ugui"],
+    "autoReferenced": true
+}

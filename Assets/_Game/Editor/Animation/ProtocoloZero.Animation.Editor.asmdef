@@ -1,0 +1,7 @@
+{
+    "name": "ProtocoloZero.Animation.Editor",
+    "rootNamespace": "ProtocoloZero.Editor.Animation",
+    "references": ["ProtocoloZero.Player"],
+    "includePlatforms": ["Editor"],
+    "autoReferenced": false
+}
