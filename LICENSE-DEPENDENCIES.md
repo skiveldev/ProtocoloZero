@@ -6,10 +6,12 @@
 
 | Class | Treatment |
 |---|---|
-| A — team-provided source | The 39 C# files and assembly/metadata structure are retained unchanged. Authorship is owner-supplied; no license is invented. |
-| B — conditional or unresolved | Team-authored serialized candidates and six Mixamo clips are excluded. Their exclusion is conservative, not a legal finding. Acquire or author replacements under applicable terms. |
-| C — restricted third-party raw assets | Asset Store models, textures, prefabs and related raw package content are excluded. An embedded licensed product is distinct from publishing editable raw assets. |
-| D — generated, compiled or private data | Executables, companions, binaries, navigation data and unnecessary project settings are excluded. Only the editor-version setting remains. |
+| A — team-provided original content | Team-provided code, metadata and selected configuration are retained unchanged. Authorship is owner-supplied; no team license is invented. Potentially team-authored cube/controller assets are also conservatively excluded, not automatically assigned to B. |
+| B — explicitly permissive third-party raw resources | Requires a verified full redistribution grant, provenance and applicable notices. None are included here. The shader notice described below is only an unverified B candidate and is excluded. |
+| C — external raw resources without accredited public-redistribution permission | Raw resources and metadata from the four Asset Store packages below, and the six Mixamo FBX clips identified below, are excluded. Embedded licensed-product use is distinct from raw-asset publication; unresolved permission is not a categorical finding of prohibition. |
+| D — generated or assembled content requiring review | Original main scene and backups, nested vendor enemy wrappers, baked NavMesh asset/metadata, templates and other settings may contain foreign or personal data and are excluded. Scene references differ from embedded foreign content; not all prefabs are inherently unlawful. Compiled build distribution has a different licensing context, but executables and companions are excluded from this source-only snapshot. |
+
+The excluded Mixamo set comprises Zombi Idle, Walk and Run, and Rifle Idle, Walk and Run: six FBX clips and their matching metadata. The four Asset Store package groups are Sci-Fi Construction Kit (Warehouse), Character08 Renegade, NewPunch Shirtless Zombie and ZombieMale AAB. Free availability, modification, GUID-only references and credits do not by themselves establish raw-redistribution permission. The earlier Mixamo HTTP 403 leaves the raw-license inquiry unresolved; it is not evidence of a categorical prohibition.
 
 The package manifests are version/dependency references, not vendored package code or a grant to redistribute all dependencies. `.gitattributes` retains LFS configuration, but this snapshot contains zero LFS pointers and zero media assets. No LFS download was performed.
 
@@ -24,7 +26,7 @@ The package manifests are version/dependency references, not vendored package co
 | Unity Asset Store terms | https://unity.com/legal/as-terms — Appendix 1, sections 2.2.1(a), 2.2.1(b) and 2.2.1.1(d) distinguish licensed embedded-product use from raw-asset redistribution |
 | Mixamo FAQ | https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html — the earlier raw-license inquiry encountered HTTP 403; that access failure is not proof of a prohibition |
 
-The previously examined shader's MIT notice referred to a missing `license.txt`; that shader is outside this allowlist and is not processed or included. A shader notice does not grant rights to models or other package assets. No third-party notices were removed from retained source, and no contributor names or copyright assertions are invented.
+The previously examined `Standard_SNP_DoubleSided_AAB.shader` MIT notice referred to a missing `license.txt`; the full grant and provenance were not verified. It remains an excluded conditional B candidate, outside this allowlist, and is not processed or included. A shader notice does not grant rights to models or other package assets. No third-party notices were removed from retained source, and no contributor names or copyright assertions are invented.
 
 ## Existing-public-history record
 
@@ -38,4 +40,6 @@ Old refs, dangling objects and server caches remain unknown. This snapshot does 
 
 Coordinate rights and permissions before further publication. Consider a new clean public repository and private preservation of the appropriately licensed original project. Keeping the same URL may require owner-managed repository renaming or visibility changes under separate explicit authorization. Archiving alone does not hide public content.
 
-No original `master` change, force push, history rewrite, deletion, rename, merge, rebase or cherry-pick is authorized by this export. Do not import old commits into this unrelated new root. Root-commit consent, team-code licensing and publication/delivery decisions remain pending.
+Explicit owner consent authorized the local parentless root commit `5ecc3e87796ec58e315114316a5abcb189631ed6`, containing exactly 122 files, and a separate documentation-only follow-up. The root remains unchanged; the independent local branch is `chore/public-source`. No push or publication has occurred. Team-code licensing and publication/delivery decisions remain pending.
+
+No original `master` change, force push, history rewrite, deletion, rename, merge, rebase or cherry-pick is authorized by these local commits. Do not import original history into this unrelated root. Any cleanup of the existing public repository requires separate explicit owner authorization and coordination; this local source-only history neither hides its existing assets nor reconstructs the original playable scene automatically.
