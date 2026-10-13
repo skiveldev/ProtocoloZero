@@ -19,5 +19,3 @@ El ejecutable no requiere instalar Unity. La opción **Code > Download ZIP** des
 ## Objetivo
 
 Consigue las tres tarjetas de acceso, activa el panel de seguridad y llega a la salida.
-
-[Ver release](https://github.com/skiveldev/ProtocoloZero/releases/tag/untagged-bffb4a318e8e4ce034c3)
