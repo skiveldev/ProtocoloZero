@@ -2,6 +2,8 @@
 
 **Descarga pendiente de publicación y cierre de las condiciones de distribución.** No hay un enlace operativo al juego en esta entrega. Consulte el [estado de entrega](DELIVERY_STATUS.md); este repositorio contiene únicamente código seleccionado y documentación, no un juego ejecutable.
 
+Responsable de publicación: [instrucciones de aceptación personal pendientes](PUBLICATION_ACCEPTANCE.md).
+
 ## Protocolo Zero — Zona de Cuarentena
 
 Proyecto académico de exploración y supervivencia: reunir tres tarjetas, activar el panel de seguridad, abrir la salida y alcanzar la zona de victoria mientras se evita un zombi. El rifle es solamente visual; no hay disparos ni munición.
