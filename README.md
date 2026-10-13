@@ -26,7 +26,7 @@ Estos controles proceden de la documentación existente; no representan una nuev
 
 ### Entrega académica alternativa
 
-El código seleccionado y la documentación están disponibles para revisión académica, sin runtime ni recursos de terceros: [rama chore/public-source](https://github.com/skiveldev/ProtocoloZero/tree/chore/public-source). GitHub ofrece un [archivo ZIP de la rama — SOLO CÓDIGO, no el juego](https://github.com/skiveldev/ProtocoloZero/archive/refs/heads/chore/public-source.zip); no se ha verificado por HTTP ese archivo en esta unidad. Esta alternativa puede utilizarse para la evaluación del código, pero no es un sustituto ejecutable del proyecto completo ni concede una licencia de reutilización.
+El código seleccionado y la documentación están disponibles para revisión académica, sin runtime ni recursos de terceros: [rama chore/public-source](https://github.com/skiveldev/ProtocoloZero/tree/chore/public-source). GitHub ofrece un [archivo ZIP de la rama — SOLO CÓDIGO, no el juego](https://github.com/skiveldev/ProtocoloZero/archive/refs/heads/chore/public-source.zip), cuya disponibilidad se confirmó mediante HTTP 302 seguido de 200 en el cierre de entrega. Esta alternativa puede utilizarse para la evaluación del código, pero no es un sustituto ejecutable del proyecto completo ni concede una licencia de reutilización.
 
 La entrega privada de un compilado a docentes sigue condicionada a los mismos derechos de distribución; no constituye una excepción automática. Créditos, fuentes oficiales y exclusiones: [dependencias](LICENSE-DEPENDENCIES.md). Condiciones del runtime: [estado de entrega](DELIVERY_STATUS.md).
 

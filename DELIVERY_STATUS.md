@@ -5,7 +5,7 @@
 ## Qué se puede entregar
 
 - Código seleccionado y documentación base disponibles para evaluación académica, sin runtime ni recursos de terceros: [rama pública](https://github.com/skiveldev/ProtocoloZero/tree/chore/public-source), [README](README.md) y [dependencias](LICENSE-DEPENDENCIES.md). La publicación de la rama fue verificada por el operador principal.
-- [Archivo de GitHub de la rama — SOLO CÓDIGO](https://github.com/skiveldev/ProtocoloZero/archive/refs/heads/chore/public-source.zip): no es el juego ni incluye el runtime. No se afirma una verificación HTTP de ese archivo en esta unidad.
+- [Archivo de GitHub de la rama — SOLO CÓDIGO](https://github.com/skiveldev/ProtocoloZero/archive/refs/heads/chore/public-source.zip): no es el juego ni incluye el runtime. El operador confirmó su disponibilidad mediante HTTP 302 seguido de 200 y tipo `application/zip`, sin ejecutar el contenido.
 - El compilado, tanto público como entregado de forma restringida a docentes, requiere cerrar las condiciones siguientes. Una entrega académica privada no elude contratos de distribución.
 
 ## Versiones y fuentes del runtime
