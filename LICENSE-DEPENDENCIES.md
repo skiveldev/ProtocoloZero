@@ -1,6 +1,6 @@
 # Dependency rights and owner remediation
 
-**This is a source-only inventory, not a license grant.** All noncode game assets are excluded. Team-code copyright and downstream licensing remain pending the owner's explicit decision. Public distribution was authorized for this snapshot; public visibility alone does not authorize downstream reuse.
+**This is a source-only inventory, not a license grant.** All noncode game assets are excluded. The user authorized publication of the selected own code, and the two-commit baseline is now public. Downstream licensing remains unchosen; that is an informational reuse boundary, not a new publication-authorization requirement. Public visibility alone does not authorize downstream reuse.
 
 ## Conservative classification
 
@@ -24,13 +24,14 @@ The package manifests are version/dependency references, not vendored package co
 | Free Shirtless Zombie | Studio New Punch — https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/free-shirtless-zombie-276762 |
 | Free Zombie Male AAB | Studio New Punch — https://assetstore.unity.com/packages/3d/characters/humanoids/free-zombie-male-aab-336744 |
 | Unity Asset Store terms | https://unity.com/legal/as-terms — Appendix 1, sections 2.2.1(a), 2.2.1(b) and 2.2.1.1(d) distinguish licensed embedded-product use from raw-asset redistribution |
-| Mixamo FAQ | https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html — the earlier raw-license inquiry encountered HTTP 403; that access failure is not proof of a prohibition |
+| Mixamo FAQ | https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html — owner-supplied FAQ confirms animation use in games; tool HTTP 403 was not retried. This does not establish the team's particular acquisition or permission to publish raw FBX files. |
+| Unity Asset Store EULA FAQ | https://assetstore.unity.com/browse/eula-faq — previously verified embedded-game permission is distinct from raw redistribution and does not prove this team's acquisition |
 
 The previously examined `Standard_SNP_DoubleSided_AAB.shader` MIT notice referred to a missing `license.txt`; the full grant and provenance were not verified. It remains an excluded conditional B candidate, outside this allowlist, and is not processed or included. A shader notice does not grant rights to models or other package assets. No third-party notices were removed from retained source, and no contributor names or copyright assertions are invented.
 
 ## Existing-public-history record
 
-The prior read-only remote/history review reported `master` at `6a9c9b7`, one advertised head, zero tags, zero advertised PR refs and four reachable commits. It inventoried 845 current review-root files, 847 historical files and 221 LFS pointer blobs: 89 FBX, 85 PNG, 10 WAV, 36 TGA and one EXR, plus a raw `Stand.obj` blob.
+The prior read-only remote/history review reported `master` at `6a9c9b7`, one advertised head, zero tags, zero advertised PR refs and four reachable commits. Those ref counts are historical, not the current remote state after source-branch publication. That review inventoried 845 review-root files, 847 historical files and 221 LFS pointer blobs: 89 FBX, 85 PNG, 10 WAV, 36 TGA and one EXR, plus a raw `Stand.obj` blob.
 
 Warehouse, Character08 and 3Rifle content was already present in public `master`, beginning at `a934…` and later `5f67…`. NewPunch (79 files), ZombieMale (128), Zombi (9), and the reviewed local commits with prefixes `8a`, `c679`, `859`, `059` and `ffe` were absent from that published reachable graph. These are prior-review facts, not a fresh network observation. No remote was contacted while creating this copy.
 
@@ -38,8 +39,10 @@ Old refs, dangling objects and server caches remain unknown. This snapshot does 
 
 ## Owner action remains separate
 
-Coordinate rights and permissions before further publication. Consider a new clean public repository and private preservation of the appropriately licensed original project. Keeping the same URL may require owner-managed repository renaming or visibility changes under separate explicit authorization. Archiving alone does not hide public content.
+The compiled Windows package has separate, version-specific conditions recorded in [DELIVERY_STATUS.md](DELIVERY_STATUS.md). This source-only record does not establish runtime-package compliance. The settled Newtonsoft notice was not re-audited or changed in this documentation unit.
 
-Explicit owner consent authorized the local parentless root commit `5ecc3e87796ec58e315114316a5abcb189631ed6`, containing exactly 122 files, and a separate documentation-only follow-up. The root remains unchanged; the independent local branch is `chore/public-source`. No push or publication has occurred. Team-code licensing and publication/delivery decisions remain pending.
+The selected source publication is already authorized and complete at the baseline. Any remediation of excluded material in older public history remains separate and requires its own authorization; the new source branch does not hide that history. Archiving alone does not hide public content.
+
+The initial push and GitHub API branch validation for `chore/public-source` were confirmed at `ba06fa071dd6bf476d132cac4cb506a29d4711f8`. Public annotated tag `v1.0.0-pa4` (`847d4b3a6b386f133aace17b6840819e36f54794`) points to the unchanged parentless root `5ecc3e87796ec58e315114316a5abcb189631ed6`, containing exactly 122 files. Subsequent delivery-document commits belong to the separate source branch and do not change that tag. Compiled-package conditions remain unresolved; no downstream team-code license has been invented.
 
 No original `master` change, force push, history rewrite, deletion, rename, merge, rebase or cherry-pick is authorized by these local commits. Do not import original history into this unrelated root. Any cleanup of the existing public repository requires separate explicit owner authorization and coordination; this local source-only history neither hides its existing assets nor reconstructs the original playable scene automatically.
